@@ -38,4 +38,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.Urls.Add("http://*:10000");
+
 app.Run();
